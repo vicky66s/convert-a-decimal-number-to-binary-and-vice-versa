@@ -1,6 +1,6 @@
 public class DecimalBinaryConverter {
     
-    // Function to convert decimal to binary
+    // Function to convert decimal to binary.
     public static String decimalToBinary(double decimal) {
         long intPart = (long) decimal;
         double fractionalPart = decimal - intPart;
@@ -8,7 +8,7 @@ public class DecimalBinaryConverter {
         String binaryIntPart = Long.toBinaryString(intPart);
         String binaryFractionalPart = "";
 
-        // Convert fractional part to binary
+        // Convert fractional part to binary.
         if (fractionalPart != 0) {
             StringBuilder sb = new StringBuilder();
             sb.append(".");
