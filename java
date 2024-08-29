@@ -1,6 +1,6 @@
 public class DecimalBinaryConverter {
     
-    // Function to convert decimal to binary
+    // Function to convert decimal to binary0000000000000000000000000
     public static String decimalToBinary(double decimal) {
         long intPart = (long) decimal;
         double fractionalPart = decimal - intPart;
