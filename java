@@ -1,4 +1,4 @@
-// 0000000000000000000000000
+// 01
 public class DecimalBinaryConverter {
     
     // Function to convert decimal to binary
